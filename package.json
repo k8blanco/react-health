@@ -38,10 +38,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coloradosunrae/mental_health.git"
+    "url": "git+https://github.com/coloradosunrae/react-health.git"
   },
   "bugs": {
-    "url": "https://github.com/coloradosunrae/mental_health.git/issues"
+    "url": "https://github.com/coloradosunrae/react-health.git/issues"
   },
-  "homepage": "https://github.com/coloradosunrae/mental_health.git#readme"
+  "homepage": "https://github.com/coloradosunrae/react-health.git#readme"
 }
