@@ -1,0 +1,30 @@
+.containerContinuePage {
+    position: relative;
+    width: 100%;
+  }
+  
+  .lionImage {
+    width: 100%;
+    height: auto;
+  }
+  
+
+.continueButton {
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .containerContinuePage .continueButton:hover {
+    background-color: black;
+  }
