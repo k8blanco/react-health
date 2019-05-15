@@ -2,7 +2,6 @@ const express = require("express");
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const passport = require("passport");
-const path = require("path");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -21,13 +20,6 @@ require("./config/passport")(passport);
 
 // Add routes, both API and view
 app.use(routes);
-
-
-// app.get("/", function(req, res) {
-//   res.json(path.join(__dirname, "public/index.html"));
-// });
-
-
 
 // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/finalproject", { useNewUrlParser: true });
