@@ -36,6 +36,5 @@
     "react-dom": "^16.8.6",
     "react-input-mask": "^2.0.4",
     "reactstrap": "^8.0.0"
-  },
-  "homepage": "https://sleepy-crag-13135.herokuapp.com/"
+  }
 }
