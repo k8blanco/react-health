@@ -7,13 +7,11 @@ require('../../config/passport')(passport);
 
 
 
-// Matches with "/api/books"
 router.route("/")
   .all(passport.authenticate('jwt', { session: false}))
   .get(clientController.findAll)
   .post(clientController.create);
 
-// Matches with "/api/books/:id"
 router.route("/:id")
   .all(passport.authenticate('jwt', { session: false}))
   .get(clientController.findById)
