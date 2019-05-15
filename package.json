@@ -37,12 +37,5 @@
     "react-input-mask": "^2.0.4",
     "reactstrap": "^8.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/coloradosunrae/react-health.git"
-  },
-  "bugs": {
-    "url": "https://github.com/coloradosunrae/react-health.git/issues"
-  },
   "homepage": "https://sleepy-crag-13135.herokuapp.com/"
 }
